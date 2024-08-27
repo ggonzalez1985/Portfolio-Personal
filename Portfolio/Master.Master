@@ -21,17 +21,25 @@
         <div class="container-fluid">
 
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <!-- Nombre y apellido alineado a la izquierda, no es un enlace -->
+                    <span class="navbar-text me-auto">GABRIEL GONZALEZ</span>
 
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <!-- Enlaces de navegación alineados a la derecha -->
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                            <a class="nav-link" href="#">Proyectos</a>
-                            <a class="nav-link" href="#">Sobre mi</a>
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                            <a class="nav-link" href="#">PROYECTOS</a>
+                            <a class="nav-link" href="#">ACERCA DE MI</a>
+                            <a class="nav-link" href="#">CONTACTO</a>
                         </div>
                     </div>
-
+                </div>
             </nav>
+
+
+
+
 
             <div>
                 <asp:ContentPlaceHolder ID="body" runat="server">
@@ -40,6 +48,7 @@
         </div>
 
     </form>
+
 
 </body>
 
